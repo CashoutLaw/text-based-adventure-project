@@ -5,7 +5,9 @@ Create text based game ui and functions
   Gameplay
     combat
       dnd style
+      
     character progression
+      lvl up, map
   
   UI
     character
