@@ -1,0 +1,18 @@
+Build website html and js
+Create story
+design gameplay mechanics
+Create text based game ui and functions
+  Gameplay
+    combat
+      dnd style
+    character progression
+  
+  UI
+    character
+      hp, stats, items
+      
+    settings
+      save, load
+    
+  images
+    implement a few images to accompany text
