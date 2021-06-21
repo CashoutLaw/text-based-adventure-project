@@ -14,3 +14,16 @@ body {
 .hidden {
   display: none;
 }
+
+
+#UserInput{
+  margin: 10px;
+  padding: 10px;
+  width: 5px;
+}
+
+#GameText{
+  margin: 10px;
+  padding: 10px;
+  backgroud-color: Red;
+}
