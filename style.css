@@ -1,12 +1,6 @@
 body {
-  overflow: hidden;
   font-family: Courier;
 }
-
-.hidden {
-  display: none;
-}
-
 
 #UserInput{
   margin: 10px;
