@@ -1,4 +1,4 @@
-Build website html and js
+Build website js
 Create story
 design gameplay mechanics
 Create text based game ui and functions
