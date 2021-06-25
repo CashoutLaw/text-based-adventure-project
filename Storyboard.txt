@@ -1,1 +1,2 @@
-
+Starts off in a forest path(maybe an ending where the player goes back and goes home). The player is walking down the path and comes across a house with a mailbox.
+The house is locked and windows are boarded up. The player can walk around the house(north, south, east(boarded up window), west(locked door and mailbox, player comes up from here)). In the mailbox there is a letter. In the letter there is a key and a message telling the player to go into the house and if they are able to take the item and come out alive, then they will win a prize. inside the house, the first floor there are a couple of rats that need to be beat up and in the room, there are stairs down. On the second floor
