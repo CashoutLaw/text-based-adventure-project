@@ -9,5 +9,12 @@ body {
   bottom: 20px;
 }
 
+#ScrollBox{
+  width: 800px;
+  height: 380px;
+  overflow: scroll;
+  border: 1px solid #ccc;
+}
+
 #GameText{
 }
