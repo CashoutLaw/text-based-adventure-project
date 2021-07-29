@@ -1,6 +1,13 @@
-var rooms = {
-  "room0":"you are in a dark place"
+var currRoom = "start";
+function changeRoom(dir){
+  if(rooms[currRoom].directions[dir] !== undefined){
+  currRoom = rooms[currRoom].directions[dir]
+   $('#ScrollBox').append("<p>" + rooms[currRoom].description + "<p>");
 
+  }else{
+     $('#ScrollBox').append("<p>You cannot go that way!<p>");
+
+  }
 
 }
 
@@ -10,11 +17,26 @@ the user input is the focus(has the flashing line wiating for text(like if you c
 After that, it will set the variable value to be the value in the user input.
 */
 $(document).ready(function(){
-  $('#ScrollBox').append(rooms["room0"])
+  $('#ScrollBox').append("<p>" + rooms.start.description + "<p>")
     $(document).keypress(function(key){
       if(key.which === 13 && $('#UserInput').is(':focus')){
-          var value = $(#UserInput).val();
-          
+          var value = $(#UserInput).val().toLowerCase();
+          switch(value){
+            case "north":
+              changeRoom("north");
+              break;
+            case "south":
+              changeRoom("south");
+              break;
+            case "east":
+              changeRoom("east");
+               break;
+             case "west":
+              changeRoom("west");
+              break;
+            default:
+              alert("invalid move!")
+          }
         }
     })
   
